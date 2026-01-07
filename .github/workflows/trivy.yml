@@ -1,0 +1,18 @@
+name: Trivy Scan
+
+on: [push]
+
+jobs:
+  security:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout repository
+        uses: actions/checkout@v3
+
+      - name: run trivy
+        uses: aquasecurity/trivy-action@master
+        with:
+          scan-type: 'fs'
+          format: 'table'
+          severity: 'HIGH,CRITICAL'
+          exit-code: '0'   # do not fail the build, only report

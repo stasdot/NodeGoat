@@ -3,7 +3,7 @@
 
 module.exports = {
     // AWS Configuration - realistic format but fake values
-    aws_access_key_id: "AKIAYOURFAKEKEY12345",
+    aws_access_key_id: "AKIAYOURFAKEKEY123465",
     aws_secret_access_key: "wJalrXUtnFEMI/K7MDENG/bPxRfiCYFAKESECRET",
     
     // GitHub Personal Access Token - realistic format

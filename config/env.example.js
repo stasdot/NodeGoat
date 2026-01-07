@@ -23,6 +23,8 @@ module.exports = {
 MIIEpAIBAAKCAQEA1234567890abcdefghijklmnopqrstuvwxyz
 -----END RSA PRIVATE KEY-----`,
     
+    hardcoded_password: "Password123!"
+
     // JWT Secret with high entropy
     jwt_secret: "8f7d9c6b5a4e3d2c1b0a9f8e7d6c5b4a3d2e1f0a9b8c7d6e5f4a3b2c1d0e9f8",
     
